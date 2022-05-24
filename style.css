@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body {
+    background: #eee;
+}
+
+main {
+    margin: 2em;
+    background: #03B4E0;
+    border-radius: 2em;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1em;
+    color: #eee;
+}
+
+.full-card {
+    display: flex;
+}
+
+.container img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.info {
+    background: white;
+    border-radius: 2em;
+    width: 100%;
+}
+
+.info h3 {
+    padding: 1.5em 2em;
+}
+
+.info span {
+    color: #03B4E0;
+}
+
+.up {
+    padding: 3em;
+}
+
+.down {
+    font-size: 0.8em;
+}
+
+.item {
+    display: flex;
+    margin: 1em 2em;
+}
+
+.year {
+    width: 20%;
+    text-align: right;
+    margin: 0 2em;
+}
+
+.year p {
+    opacity: 0.6;
+}
+
+.description {
+    width: 80%;
+}
+
+.skills {
+    padding: 0 2em 2em 2em;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill label {
+    font-weight: bold;
+}
+
+.skill progress {
+    width: 100%;
+    accent-color: #03B4E0;
+}
